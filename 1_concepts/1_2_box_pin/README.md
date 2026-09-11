@@ -6,7 +6,7 @@ Task 1.2: Boxing and pinning
 
 ## Boxing
 
-📚 [`Box`] is a pointer that owns heap-allocated data. This is the most common and simples form of 📰 [heap]⏱0.5h allocation in 🏠 [Rust].
+📚 [`Box`] is a pointer that owns heap-allocated data. This is the most common and simple form of 📰 [heap]⏱0.5h allocation in 🏠 [Rust].
 
 It's more idiomatic to use references (`&T`/`&mut T`) for pointing to the data, however they often come with lifetimes complexity. 📚 [`Box`] allows to avoid this complexity at the cost of heap allocation.
 
